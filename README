@@ -1,0 +1,11 @@
+C++ Practice lesson. The task was to create special function called "mapper" 
+which will allow us to fill map in a fancy way:
+
+std::map<int, double> m(mapper(1,1.0)(2,3.3)(3,4.2));
+
+Additional task is to properly handle pointers in this map, 
+using std::shared_ptr:
+
+std::map(int, std::shared_ptr<double>> 
+	m(mapper(1, new double(2.2))(2, new ...));
+
